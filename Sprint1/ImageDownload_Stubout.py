@@ -2,6 +2,7 @@
 def photoDisplay(photoAlbum):
     for photo in photoAlbum:
         # display photo
+        return;
     return;
 
 #Function that allows user to download photo(s)
@@ -9,5 +10,6 @@ def photoDisplay(photoAlbum):
 def photoDownload(*photos):
     for photo in photos:
         #download photo
+        return;
     return;
 

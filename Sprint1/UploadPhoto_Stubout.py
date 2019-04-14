@@ -2,13 +2,15 @@
 def photoUpload(photoAlbum):
     for photo in photoAlbum:
         #run ranking algorithm on photo
-    return:
+        return;
+    return;
 
 
 # Function that takes rank and adds it to photo-data
 def addRankToPhoto(photoAlbum, ranks):
     for photo in photoAlbum:
         #add photo.rank to photo
+        return;
     return;
 
 
