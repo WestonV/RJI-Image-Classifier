@@ -38,6 +38,21 @@ The ERD for our database is shown below:
 
 ## Design Documents
 
+1. Upload Photo [Use Case](../Sprint1/UploadPhoto_Stubout.py)
+   - This use case is a large part of our application. It is the basis for the the entire system, as it allows the user to upload the pictures to be ranked by the system. We are going to be using either python or php to handle the file uploads. 
+   - After the files are uploaded we run the ranking algorithm on the photo album. This algorithm is designed to give the photos a score based on technical attributes.
+   - After this has been done, we move onto the next use case, which is the user interaction use case.
+
+2. User Interaction [Use Case](../Sprint1/UserInteractions_Stubout.py)
+   - This use case is important for the users as well. This will most likely be done using HTML/CSS/JS, as the main objective of this use case is to present the photos to the user.
+   - We want to present the photos in ascending in descending order, or give them a range of photos to view. For example, we could let them look at a range of photos from X and above. 
+   - Most of the work here will be the presentation of the photos, and how we want to go about doing that.
+   - Finally, this takes us to the next use case, the download photo use case.
+
+3. Image Download [Use Case](../Sprint1/ImageDownload_Stubout.py)
+   - This use case allows the user to download their photo album or select photos. We present their album in a ranked order, and they can download the photos with that order.
+   - This is a crucial aspect of our application design, because it really is the end product of the app.
+
 ## Languages we will be using
 
 1. HTML/CSS/JS
