@@ -1,0 +1,24 @@
+
+1/1 [==============================] - 1s 1s/step
+[
+  {
+    "mean_score_prediction": 4.303698893636465,
+    "image_id": "42040"
+  },
+  {
+    "mean_score_prediction": 4.996936783194542,
+    "image_id": "42041"
+  },
+  {
+    "mean_score_prediction": 3.9866190552711487,
+    "image_id": "42044"
+  },
+  {
+    "mean_score_prediction": 4.647608205676079,
+    "image_id": "42039"
+  },
+  {
+    "mean_score_prediction": 3.9691506400704384,
+    "image_id": "42042"
+  }
+]
