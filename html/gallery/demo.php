@@ -39,6 +39,11 @@ $html = '
         <!-- Uncomment below if you prefer to use a text logo -->
         <h1><a href="../../index.html">RJI Group 17</a></h1>
 		 </div>
+       <div>
+               <a href="downloadDemo.php">
+                  <button class="btn"><i class="fa fa-download"></i> Download All Images</button>
+               </a>
+            </div>
     </div>
   </header><!-- #header -->
 			<section class="ftco-section-2">

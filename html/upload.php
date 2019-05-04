@@ -8,7 +8,7 @@
 
    $conn = new mysqli($servername, $username, $password, $dbname);
    if($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
+        die("Connection to DB failed: " . $conn->connect_error);
    }
 
    //Deletes files from the directory as well as the upload database before adding new entries.
@@ -47,6 +47,11 @@
          $temp='';
          $tmp='';
       }
+
+      $shellResponse = shell_exec("cd image-quality-assessment && ./rank.sh");
+      echo $shellResponse;
+      echo "testing";
       $conn->close();
-      header('Location: gallery/uploads.php');
+      //  header('Location: gallery/uploads.php');
 ?>
+

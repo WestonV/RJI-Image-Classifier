@@ -28,6 +28,7 @@
       <link rel="stylesheet" href="css/flaticon.css">
       <link rel="stylesheet" href="css/icomoon.css">
       <link rel="stylesheet" href="css/style.css">
+      
    </head>
    <body>
       <header id="header">
@@ -35,10 +36,13 @@
             <div id="logo" class="pull-left">
                <h1><a href="../../index.html">RJI Group 17</a></h1>
             </div>
+            <div>
+               <a href="download.php">
+                  <button class="btn"><i class="fa fa-download"></i> Download All Images</button>
+               </a>
+            </div>
          </div>
-         <div>
-            <button class="btn"><i class="fa fa-download"></i> Download</button>
-         </div>
+         
       </header>
       <section class="ftco-section-2">
          <div class="photograhy" style="width:80%; margin:auto;">

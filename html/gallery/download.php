@@ -1,6 +1,6 @@
 <?php
    // Get real path for our folder
-$rootPath = realpath('/var/www/html/demo');
+$rootPath = realpath('/var/www/html/uploads');
 
 // Initialize archive object
 $zip = new ZipArchive();
