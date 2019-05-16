@@ -48,20 +48,14 @@ c.	sudo service docker start
 d.	docker build -t nima-cpu . -f Dockerfile.cpu
 6.	Make predict.sh and rank.sh executable 
 7.	You can test that docker is working using the following command in the image-quality-assessment directory.
-a.	./predict  \
-b.	--docker-image nima-cpu \
-c.	--base-model-name MobileNet \
-d.	--weights-file $(pwd)/models/MobileNet/weights_mobilenet_technical_0.11.hdf5 \
-e.	--image-source $(pwd)/src/tests/test_images/42039.jpg
+	./predict  \
+	--docker-image nima-cpu \
+	--base-model-name MobileNet \
+	--weights-file $(pwd)/models/MobileNet/weights_mobilenet_technical_0.11.hdf5 \
+	--image-source $(pwd)/src/tests/test_images/42039.jpg
 8.	Mysql stuff:  You will need to configure your local database. To do this log into the mysql prompt with the credentials you created in step 2. Then enter the following commands
 	mysql> use db_name;
 	mysql> source sprint2.sql;
-  
-
--	
-
-Once all of the required dependencies installed and you have cloned our repo, you can go the Idealo folder in our repository and create a Docker image using this command
-docker build -t nima-cpu . -f Dockerfile.cpu
 
 
 ### Thank You
