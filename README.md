@@ -7,6 +7,14 @@ Machine Learning Image Classifier Designed to Help Journalists and Photographers
 
 ## Group 17: Antonio Valazquez, Byron Hammann, Weston Verhulst
 
-### Sprint 3 update:
+### Live Deployment Environment
 
-So far, we have built a system that allows a user to upload images, download images, and get their images ranked. Our system doesn't work the exact way we want it to, as we have run into some capacity and performance issues, however, we have made great progress and are proud of our work. The issues we've run into have come from classifying the photo while uploading the photo. It puts too much stress on our server, and causes it to malfunction. Presently, once we are able to get this issue fixed, our end product will be exactly what we set out for it to be in its simplest form: a system where a user can upload a batch of photos and have them ranked by the classifier, and then proceed to download the photos with its ranked score added to the metadata. 
+Check out our final project [here.](http://ec2-3-88-210-63.compute-1.amazonaws.com/)  
+
+### What Our Project Does
+
+Our final project is a fully working ranking system that takes user-uploaded images and gives them a score. Then, the user is allowed to view and sort the images they've uploaded, and select any or all photos that they'd like to redownload. 
+
+### How It's Made
+
+This website design is based off of a bootstrap template. Server side code is handled via php, which interacts with a mySQL database. We're hosting our system on an Amazon EC2 instance, which again can be [found here.](http://ec2-3-88-210-63.compute-1.amazonaws.com/) The image classifier that we use to score and rank the images is the [idealo image classifier](https://github.com/idealo/image-quality-assessment), which we are also hosting on the EC2 server. This classifier has not been trained on our data set, and is simply the "out-of-the-box" model. 
