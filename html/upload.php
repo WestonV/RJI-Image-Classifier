@@ -48,10 +48,11 @@
          $tmp='';
       }
 
-      $shellResponse = shell_exec("cd image-quality-assessment && ./rank.sh");
-      echo $shellResponse;
-      echo "testing";
+      //Testing regular page, sorry to comment out your work!
+//      $shellResponse = shell_exec("cd image-quality-assessment && ./rank.sh");
+//      echo $shellResponse;
+//      echo "testing";
       $conn->close();
-      //  header('Location: gallery/uploads.php');
+      header('Location: rank.php');
+      //header('Location: gallery/uploads.php');
 ?>
-

@@ -84,6 +84,8 @@
       	<h1>RJI Image Classifier</h1><br>
       	<h2>Use the prompt below to upload files for quality assessment!</h2>
 			<h2>Or use the demo prompt to view the gallery with preloaded images and scores!</h2>
+           <p style="color: white;">Due to technical limitiations, our webpage can only handle up to 10 jpeg uploads at a time. Please keep this in mind if the page crashes during upload.
+           <br>Please also be patient while the ranker runs, this process should not take longer than 1 minute.</p>
       
 <!--      <a href="#about" class="btn-get-started">Let's Go!</a>-->
 			<span>
@@ -91,7 +93,7 @@
 					<div class="input-group">
 						<label class="input-group-btn" style="margin: auto;">
 							<span class="btn-get-started">
-								Browse&hellip; <input type="file" name="file[]" accept="image/*" style="display: none;" multiple>
+								Browse&hellip; <input id="image" type="file" name="file[]" accept="image/jpeg" style="display: none;" multiple>
 							</span>
 						</label>
 						<input type="text" class="form-control" style="border-radius: 5px; height:60%; margin: auto;"readonly>
@@ -124,13 +126,13 @@
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-shopping-bag"></i></div>
               <h4 class="title" target="_blank"><a href="https://github.com/WestonV">Weston Verhulst</a></h4>
-              <p class="description">Area for fun fact or info.</p>
+              <p class="description">I.T. Student at Mizzou</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-photo"></i></div>
               <h4 class="title" target="_blank"><a href="https://github.com/IneegoMontoya">Byron Hammann</a></h4>
-              <p class="description">Another fun fact spot.</p>
+              <p class="description">Computer Science Student at Mizzou</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
