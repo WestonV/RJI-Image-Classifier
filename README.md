@@ -62,3 +62,6 @@ e.	--image-source $(pwd)/src/tests/test_images/42039.jpg
 
 Once all of the required dependencies installed and you have cloned our repo, you can go the Idealo folder in our repository and create a Docker image using this command
 docker build -t nima-cpu . -f Dockerfile.cpu
+
+
+### Thank You
