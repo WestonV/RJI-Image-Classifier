@@ -23,14 +23,14 @@ This website design is based off of a bootstrap template. Server side code is ha
 
 We elected to use Amazon Web Services to deploy our project. We selected the Amazon Linux AMI for our server as it already came with MySQL, Docker, and the appropriate Python libraries already installed.  Should you chose to deploy our project on a different Linux environment, you will need to install Docker, MySQL and at minimum Python 2.7. You will also need to install Exiftool by Phil Harvey. There is not a repository to fetch Exiftool, so you will have to acquire it using wget to retrieve the needed packets; enter the following commands
 
-wget http://owl.phy.queensu.ca/~phil/exiftool/Image-ExifTool-11.38.tar.gz
-tar -xzf Image-Exiftool-11.38.tar.gz
-cd Exiftool-11.38
-sudo cp -r exiftool lib /usr/local/bin
+wget http://owl.phy.queensu.ca/~phil/exiftool/Image-ExifTool-11.38.tar.gz  
+tar -xzf Image-Exiftool-11.38.tar.gz  
+cd Exiftool-11.38  
+sudo cp -r exiftool lib /usr/local/bin  
 
 Steps
 1.	Image Selection
-![DeploymentImage](../blob/master/Sprint4/Deployment.png)
+![Deployment Image](https://github.com/WestonV/RJI-Image-Classifier/blob/master/Sprint%204/Deployment.png)
  
  
 -	Our server ran best when selecting the t2.small type instance, as the extra memory helped the photo ranker run smoother.
